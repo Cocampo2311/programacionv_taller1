@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        
+        let nombre = prompt("Introduce tu nombre:");
+        let sexo = prompt("Introduce tu sexo (mujer u hombre):").toLowerCase();
+
+        let primeraLetra = nombre.charAt(0).toLowerCase();
+
+        let grupo;
+        if ((sexo === 'mujer' && primeraLetra < 'm') || (sexo === 'hombre' && primeraLetra >= 'n')) {
+            grupo = 'A';
+        } else {
+            grupo = 'B';
+        }
+
+        alert("Tu grupo es: " + grupo);
+
+    </script>
+</body>
+
+</html>

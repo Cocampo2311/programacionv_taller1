@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    
+        let rentaAnual = parseFloat(prompt("Introduce tu renta anual en euros:"));
+
+        let tipoImpositivo;
+        if (rentaAnual < 10000) {
+            tipoImpositivo = "5%";
+        } else if (rentaAnual >= 10000 && rentaAnual < 20000) {
+            tipoImpositivo = "15%";
+        } else if (rentaAnual >= 20000 && rentaAnual < 35000) {
+            tipoImpositivo = "20%";
+        } else if (rentaAnual >= 35000 && rentaAnual < 60000) {
+            tipoImpositivo = "30%";
+        } else {
+            tipoImpositivo = "45%";
+        }
+
+        alert("Tu tipo impositivo es: " + tipoImpositivo);
+
+    </script>
+
+</body>
+
+</html>
