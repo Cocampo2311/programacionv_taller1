@@ -5,15 +5,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "Ejercicio1": "node primerejercicio/ejercicio1.js",
-    
-    "Ejercicio3": "node tercerejercicio/ejercicio3.js",
-    
-    "Ejercicio5": "node quintoejercicio/ejercicio5.js",
-    
-    "Ejercicio7": "node septimoejercicio/ejercicio7.js",
-    
-    "Ejercicio9": "node novenpeejercicio/ejercicio9.js" 
-    
+    "Ejercicio2": "node segundoejercicio/ejercicio2.js",
+    "Ejercicio3": "node tercerjercicio/ejercicio3.js",
+    "Ejercicio4": "node cuartojercicio/ejercicio4.js",
+    "Ejercicio5": "node quintojercicio/ejercicio5.js",
+    "Ejercicio6": "node sextojercicio/ejercicio6.js",
+    "Ejercicio7": "node septimojercicio/ejercicio7.js",
+    "Ejercicio8": "node octavoejercicio/ejercicio8.js",
+    "Ejercicio9": "node novenpejercicio/ejercicio9.js",
+    "Ejercicio10": "node decimoejercicio/ejercicio10.js"
   },
   "keywords": [],
   "author": "",

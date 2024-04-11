@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Viaje</title>
+</head>
+<body>
+    <h2>Programa de Viaje</h2>
+    <p>Selecciona tu medio de transporte:</p>
+    <select id="transporte">
+        <option value="coche">Coche</option>
+        <option value="tren">Tren</option>
+        <option value="bicicleta">Bicicleta</option>
+        <option value="autobus">Autobús</option>
+    </select>
+    <button onclick="verificarTransporte()">Confirmar</button>
+
+    <p id="mensaje"></p>
+
+    <script>
+        function verificarTransporte() {
+            var seleccion = document.getElementById("transporte").value;
+            var mensaje = document.getElementById("mensaje");
+
+            if (seleccion === "tren" || seleccion === "autobus") {
+                mensaje.textContent = "lleva dinero para el billete.";
+            } else {
+                mensaje.textContent = "";
+            }
+        }
+    </script>
+</body>
+</html>
